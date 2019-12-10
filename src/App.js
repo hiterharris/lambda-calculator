@@ -4,28 +4,21 @@ import Operators from './components/ButtonComponents/OperatorButtons/Operators';
 import Specials from './components/ButtonComponents/SpecialButtons/Specials';
 import Logo from "./components/DisplayComponents/Logo";
 import Display from "./components/DisplayComponents/Display";
-import {numbers} from './data';
-import {operators} from './data';
-import {specials} from './data';
 import "./App.css";
 
 function App() {
-  const [number] = useState(numbers);
-  const [operatorsData] = useState(operators);
-  const [specialsData] = useState(specials);
-
   return (
 
     <div className="container">
       <Logo />
-      <Display number={number} />
+      <Display />
       <div className="App">
         <div className='flex-container'>
-          <Specials specialsData={specialsData} />
+          <Specials />
           <Numbers />
         </div>
         <div className='flex-container-2'>
-          <Operators operatorsData={operatorsData} />
+          <Operators />
         </div>
       </div>
     </div>

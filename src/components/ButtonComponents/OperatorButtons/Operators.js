@@ -2,9 +2,7 @@ import React, {useState} from "react";
 import OperatorButton from './OperatorButton';
 import {operators} from '../../../data';
 
-const Operators = (props) => {
-  // console.log(props.operatorsData);
-
+const Operators = () => {
   const [data] = useState(operators);
   return (
     <div className='operator-container'>
