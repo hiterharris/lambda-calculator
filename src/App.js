@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <Display />
+        <Display />
       <div className="App">
         <div className='flex-container'>
           <Specials />
