@@ -4,7 +4,7 @@ const OperatorButton = (props) => {
   return (
     <div>
     {props.data.map((operator, index) => (
-      <button key={index}>{operator.char}</button>
+      <button className='operator-button buttons' key={index}>{operator.char}</button>
     ))}
   </div>
   );

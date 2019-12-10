@@ -4,7 +4,7 @@ const SpecialButton = (props) => {
   return (
     <div>
       {props.data.map((special, index) => (
-        <button key={index}>{special}</button>
+        <button className='specials-button buttons' key={index}>{special}</button>
       ))}
   </div>
   );

@@ -5,7 +5,7 @@ import {operators} from '../../../data';
 const Operators = () => {
   const [data] = useState(operators);
   return (
-    <div>
+    <div className='operator-container'>
       <OperatorButton data={data} />
     </div>
   );

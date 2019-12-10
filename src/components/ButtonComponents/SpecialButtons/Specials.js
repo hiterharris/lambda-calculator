@@ -5,7 +5,7 @@ import {specials} from '../../../data';
 const Specials = () => {
   const [data] = useState(specials);
   return (
-    <div>
+    <div className='specials-container'>
       <SpecialButton data={data} />
     </div>
   );
