@@ -2,7 +2,9 @@ import React, {useState} from "react";
 import SpecialButton from './SpecialButton';
 import {specials} from '../../../data';
 
-const Specials = () => {
+const Specials = (props) => {
+  // console.log(props.specialsData);
+
   const [data] = useState(specials);
   return (
     <div className='specials-container'>

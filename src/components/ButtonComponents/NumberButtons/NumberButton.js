@@ -4,7 +4,7 @@ const NumberButton = (props) => {
   return (
     <div>
       {props.data.map((number, index) => (
-        <button className='number-button buttons' key={index}>{number}</button>
+        <button className='number-button buttons' key={index} onClick={() => console.log(number)}>{number}</button>
       ))}
     </div>
   );
