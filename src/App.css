@@ -10,13 +10,18 @@
     flex-direction: column;
 }
 
+.logo-container {
+  padding-left: 12%;
+}
+
 .display-container {
   display: flex;
   justify-content: center;
 }
 
 .display {
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 100px;
     width: 325px;
     border-radius: 50px;
